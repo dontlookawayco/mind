@@ -39,3 +39,7 @@ function processRoutePath (routePath, prefix = '/') {
 }
 
 processRoutePath('./routes/')
+
+app.listen(process.env.PORT || 13144, () => {
+  console.log('[MIND] Live @ ' + (process.env.PORT || 13144))
+})
