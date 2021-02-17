@@ -9,7 +9,6 @@ This project aims to be transparent about how it's store, what happened to the d
 ## Security
 All encryption and decryption will be done on the front-end (the client side) to avoid having to store any data that can be easily accessed without permission. This also ensures that we, dontlookaway, can alter the data. The data we receive will only contain gibberish.
 
-
 ## Roadmap
 What needs to be added
 - [ ] A way to create an account ("person")
@@ -26,6 +25,9 @@ What needs to be added
 - [ ] A way to share memories, READ ONLY, between accounts. For example, share a memory with a friend and see when they accessed it.
 - [ ] A way to keep analytics about the platform without pinpointing to the user, probably only based on the data received in the backend and fully opt-in.
 - [ ] A way for people to donate to the project (to store all the data).
+- [ ] A versioning system to allow people to check what changed in between versions
+- [ ] A way to securely add information about the owner of the account to add it as a stamp to the export
+- [ ] A way to link social media accounts to the account to later confirm that the account indeed belongs to that person.
 
 ## License.
 The application is currently fully under the copyright of dontlookaway. You are not allowed to use any of the code for your own or business purposes. The code is meant to be fully "READ ONLY". We might accept contributions in the future but for now please use the issue tab instead of PRs.
