@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const modelsInOrder = ['user', 'memory']
+const modelsInOrder = ['user', 'attachment', 'memory']
 
 async function init () {
   loadModels()

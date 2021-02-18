@@ -3,6 +3,8 @@ const express = require('express')
 
 const app = express()
 
+require('./database/init')()
+
 /**
  * Import all the routes dynamicly
  * @param {*} routePath the path to the routes
