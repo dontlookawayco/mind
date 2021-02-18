@@ -30,4 +30,4 @@ What needs to be added
 - [ ] A way to link social media accounts to the account to later confirm that the account indeed belongs to that person.
 
 ## License.
-The application is currently fully under the copyright of dontlookaway. You are not allowed to use any of the code for your own or business purposes. The code is meant to be fully "READ ONLY". We might accept contributions in the future but for now please use the issue tab instead of PRs.
+This project is licensed under Apache 2.0
