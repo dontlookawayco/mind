@@ -33,8 +33,13 @@ const MemorySchema = mongoose.Schema({
   content: {
     type: String,
     required: true
+  },
+  // The IDs of the attachments, they'll be encrypted as well and not directly linked in the database to the memory for security purposes.
+  attachments: {
+    type: Array,
+    required: false
   }
-}, 
+},
 { timestamps: true })
 
 module.exports = mongoose.model('memory', MemorySchema)
